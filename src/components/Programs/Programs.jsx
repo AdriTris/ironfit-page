@@ -1,4 +1,4 @@
-import { programsData } from "../../data/ProgramsData";
+import { programsData } from "../../data/programsData";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 function Programs() {
