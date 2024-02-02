@@ -3,7 +3,10 @@ import Image from "next/image";
 
 function Features() {
   return (
-    <main className="h-full w-full px-10 relative z-0 pt-16 max-sm:pt-12">
+    <main
+      className="h-full w-full px-10 relative z-0 pt-16 max-sm:pt-12"
+      id="home"
+    >
       <div className="w-60 h-20 bg-zinc-200 rounded-lg absolute top-[30rem] right-72 flex p-3 max-sm:right-20 max-sm:top-[60rem] ">
         <div className="w-2/3 h-full flex flex-col justify-center gap-2">
           <span className=" font-medium text-xs text-zinc-800">

@@ -46,7 +46,14 @@ function Navbar() {
           }`}
         >
           <li>
-            <a href="/" className={`handleActive hover:text-red-500`}>
+            <a
+              href="#"
+              className={`handleActive hover:text-red-500`}
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("home");
+              }}
+            >
               Home
             </a>
           </li>
@@ -95,7 +102,14 @@ function Navbar() {
       <div className="max-sm:hidden flex ">
         <ul className="flex gap-8">
           <li>
-            <a href="/" className={`handleActive hover:text-red-500`}>
+            <a
+              href="#"
+              className={`handleActive hover:text-red-500`}
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("home");
+              }}
+            >
               Home
             </a>
           </li>
